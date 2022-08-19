@@ -19,8 +19,8 @@ body {
 body header {
   background-color: #1F68D6;
   color: #fbfcfe;
-  height: 37rem;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -108,4 +108,19 @@ body footer p {
 body footer p a {
   font-weight: 700;
   color: #1F68D6;
+}
+@media (max-width: 50rem) {
+  body footer p {
+    width: 31rem;
+  }
+  body footer h3 {
+    text-align: center;
+  }
+  body header h1 {
+    text-align: center;
+  }
+  body section {
+    text-align: center;
+    margin-left: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

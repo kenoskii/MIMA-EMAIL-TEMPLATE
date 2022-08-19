@@ -27,7 +27,7 @@ html {
     box-sizing: inherit;
 }
 
-body {
+body {    
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
@@ -36,8 +36,8 @@ body {
     header {
         background-color: $header-background-color;
         color: $text-color-white;
-        height: 37rem;
         display: flex;
+        width: 100%;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -95,11 +95,12 @@ body {
             line-height: 1.9rem;
             margin-bottom: 2.5rem;
         }
-        p{
+
+        p {
             font-size: $font-size-medium;
             font-weight: $font-weight-nomal;
             line-height: 0.5rem;
-            
+
         }
     }
 
@@ -140,5 +141,21 @@ body {
                 color: $header-background-color;
             }
         }
+        
+    }
+    @media (max-width:50rem){
+       footer p{
+        width: 31rem;
+       }   
+       footer h3{
+        text-align: center;
+       }  
+       header h1{
+        text-align: center;
+       }
+       section{
+        text-align: center;
+        margin-left: 0;
+       }
     }
 }
