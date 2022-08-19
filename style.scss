@@ -65,7 +65,7 @@ body {
             margin-bottom: 7.6rem;
             font-weight: $font-weight-bold;
             font-size: $font-size-xlarge;
-        }        
+        }
     }
 
     section {
@@ -83,16 +83,23 @@ body {
             font-weight: $font-weight-bold;
         }
 
-        p {
+        span {
             font-size: $font-size-medium;
             font-weight: $font-weight-nomal;
-            line-height: 1.2rem;
+            display: flex;
         }
 
         h2 {
             font-size: $font-size-large;
             font-weight: $font-weight-bold;
             line-height: 1.9rem;
+            margin-bottom: 2.5rem;
+        }
+        p{
+            font-size: $font-size-medium;
+            font-weight: $font-weight-nomal;
+            line-height: 0.5rem;
+            
         }
     }
 
